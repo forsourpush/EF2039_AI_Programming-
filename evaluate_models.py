@@ -9,7 +9,7 @@ import os  # File and folder operations.
 np.set_printoptions(suppress=True)
 
 # Select the model folder; use the same test set for model comparisons.
-letter = "b"
+letter = "a"
 base_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = "model_" + letter
 
